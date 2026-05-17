@@ -1,0 +1,59 @@
+# Build outputs
+**/build/
+.hvigor/
+**/.hvigor/
+
+# Dependencies
+oh_modules/
+**/oh_modules/
+
+# IDE
+.idea/
+*.iml
+
+# OS
+.DS_Store
+Thumbs.db
+
+# ProtoBin / compiled caches
+*.protoBin
+*.msgpack
+*.tsbuildinfo
+*.cache
+.ts_checker_cache
+
+# Generated files (keep only source .ets)
+**/generated/
+**/loader_out/
+**/esmodule/
+**/compiler.cache/
+
+# Package output
+*.hap
+*.app
+
+# Output metadata
+output_metadata.json
+pack.info
+compileInfo.json
+dep_info.json
+modules.cache
+filesInfo.txt
+npmEntries.*
+sourceMaps.json
+sourceMaps.map
+loader.json
+pkgSdkInfo.json
+modules.abc
+module.json
+base_native_libs.json
+binxo_native_libs.json
+opt-compression.json
+resConfig.json
+resources.index
+ResourceTable.*
+ids_map/
+temp-*.json
+
+# Package lock in generated locations
+**/oh_modules/.ohpm/
